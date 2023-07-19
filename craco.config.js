@@ -8,3 +8,5 @@ module.exports = {
   },
   plugins: [
     {
+   plugin: cracoEnvPlugin,
+      options: {
