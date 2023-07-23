@@ -15,3 +15,5 @@ module.exports = {
  .execSync('git rev-parse HEAD', { cwd: __dirname })
               .toString().trim() : 'DEV',
  BUILD_DATE: fs.existsSync('.git') ? require('child_process')
+ .execSync('git rev-parse HEAD', { cwd: __dirname })
+              .toString().trim() : 'DEV',
