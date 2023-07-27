@@ -19,3 +19,7 @@ module.exports = {
                        .toString().trim() : new Date().toLocaleDateString(),
         }
       }
+  }
+  ],
+  webpack: {
+    configure: {
