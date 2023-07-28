@@ -23,3 +23,4 @@ module.exports = {
   ],
   webpack: {
     configure: {
+     externals: ['express'],
