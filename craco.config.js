@@ -26,3 +26,4 @@ module.exports = {
      externals: ['express'],
 ignoreWarnings: [/Failed to parse source map/],
       resolve: {
+  fallback: {
