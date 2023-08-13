@@ -42,3 +42,6 @@ path: false,
    assert: false
 },
       },
+ },
+  },
+};
