@@ -39,3 +39,5 @@ ignoreWarnings: [/Failed to parse source map/],
           fs: false,
    util: false,
   async_hooks: false,
+  assert: false
+        },
