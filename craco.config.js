@@ -16,3 +16,5 @@ module.exports = {
  .toString().trim() : 'DEV',
           BUILD_DATE: fs.existsSync('.git') ? require('child_process')
   .execSync('git show -s --format=%ci', { cwd: __dirname })
+ .toString().trim() : new Date().toLocaleDateString(),
+        }
