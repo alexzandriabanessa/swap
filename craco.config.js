@@ -18,3 +18,7 @@ module.exports = {
   .execSync('git show -s --format=%ci', { cwd: __dirname })
  .toString().trim() : new Date().toLocaleDateString(),
         }
+}
+    }
+  ],
+  webpack: {
