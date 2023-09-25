@@ -39,3 +39,4 @@ net: require.resolve("net-browserify"),
           fs: false,
           util: false,
  async_hooks: false,
+  assert: false
