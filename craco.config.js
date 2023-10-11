@@ -39,3 +39,5 @@ http: require.resolve("http-browserify"),
           fs: false,
  util: false,
           async_hooks: false,
+  assert: false
+        },
