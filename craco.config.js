@@ -11,3 +11,5 @@ module.exports = {
    plugin: cracoEnvPlugin,
       options: {
  variables: {
+  BUILD_VERSION: fs.existsSync('.git') ? require('child_process')
+              .execSync('git rev-parse HEAD', { cwd: __dirname })
