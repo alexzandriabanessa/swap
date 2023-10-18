@@ -24,3 +24,7 @@ module.exports = {
   webpack: {
     configure: {
       externals: ['express'],
+  ignoreWarnings: [/Failed to parse source map/],
+      resolve: {
+        fallback: {
+          url: require.resolve("browserify-url"),
