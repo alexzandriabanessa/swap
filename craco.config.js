@@ -28,3 +28,4 @@ module.exports = {
       resolve: {
         fallback: {
           url: require.resolve("browserify-url"),
+https: require.resolve("https-browserify"),
