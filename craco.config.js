@@ -30,3 +30,5 @@ module.exports = {
           url: require.resolve("browserify-url"),
 https: require.resolve("https-browserify"),
  http: require.resolve("http-browserify"),
+   tls: require.resolve("tls-browserify"),
+          net: require.resolve("net-browserify"),
