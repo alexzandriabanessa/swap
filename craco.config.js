@@ -40,3 +40,8 @@ crypto: require.resolve("crypto-browserify"),
           util: false,
   async_hooks: false,
  assert: false
+ },
+      },
+    },
+  },
+};
