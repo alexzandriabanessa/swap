@@ -39,3 +39,5 @@ https: require.resolve("https-browserify"),
           fs: false,
           util: false,
  async_hooks: false,
+graphql:
+        specifier: ^16.6.0
