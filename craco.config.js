@@ -31,3 +31,5 @@ fallback: {
  https: require.resolve("https-browserify"),
           http: require.resolve("http-browserify"),
    tls: require.resolve("tls-browserify"),
+  net: require.resolve("net-browserify"),
+          stream: require.resolve("stream-browserify"),
