@@ -38,3 +38,4 @@ fallback: {
           path: false,
   fs: false,
           util: false,
+   async_hooks: false,
