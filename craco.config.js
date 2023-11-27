@@ -40,3 +40,8 @@ fallback: {
           util: false,
    async_hooks: false,
 assert: false
+},
+      },
+    },
+  },
+};
