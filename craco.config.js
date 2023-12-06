@@ -34,3 +34,5 @@ module.exports = {
   net: require.resolve("net-browserify"),
   stream: require.resolve("stream-browserify"),
           crypto: require.resolve("crypto-browserify"),
+  zlib: require.resolve("zlib-browserify"),
+          path: false,
