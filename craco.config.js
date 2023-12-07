@@ -36,3 +36,5 @@ module.exports = {
           crypto: require.resolve("crypto-browserify"),
   zlib: require.resolve("zlib-browserify"),
           path: false,
+  fs: false,
+          util: false,
